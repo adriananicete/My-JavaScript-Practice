@@ -26,7 +26,7 @@ for (let index = 0; index < language.length; index++) {
   console.log(language.charAt(index));
 }
 
-let names = "AdrianAnicete";
+let names = "asdfsadfsadfasdfasdf";
 
 for (let index = 0; index < names.length; index++) {
   console.log(names.charAt(index));
