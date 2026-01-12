@@ -97,3 +97,44 @@ switch (city) {
     default: 
         console.log('invalid')
 }
+
+let a = true;
+let b = false;
+
+if (a && b) {
+    console.log('true') 
+} else {
+    console.log('false')
+}
+
+const result = true && 'trasdfue'
+console.log(result)
+
+const output = 'b' || 0
+console.log(output)
+
+let userInput;
+
+if(userInput || 'Guest'){
+    console.log('A user is present')
+} else {
+
+    console.log('No use found')
+
+}
+ console.log(userInput)
+
+
+ let number = [1,2,3,4,5]
+
+ console.log(Math.min(...number))
+ console.log(Math.max(...number))
+
+ const PI = 3.14159
+ const format = parseFloat(PI.toFixed(3));
+ console.log(typeof format, format)
+
+ let num1 = 12.345;
+let num2 = 67.891;
+
+console.log((num1 + num2).toFixed(2));
