@@ -46,3 +46,27 @@ console.log(addName(user1, 'Roselyn'))
 console.log(addAge(user1, 29))
 console.log(changeStudentStatus(user1, true))
 console.log(addSkill(user1, ['JavaScript', 'TypeScript']))
+
+// Break and Continue in For Loop
+// for ( let i = 1; i <= 5; i++) {
+//     console.log(i)
+//     if ( i === 3 ) break;
+//     console.log(i)
+// }
+
+// Print 1-to-10 and 10-to-1
+// for (let i = 1, j = 10; i <= 10, j >= 1; i++, j--) {
+//     console.log(i,j)
+// }
+
+let counter = '';
+for ( let i = 1; i <= 5; i++) {
+   counter = counter + '*'
+   console.log(counter)
+}
+
+let count = 1;
+while(count <= 5){
+    console.log(count)
+    count++
+}
