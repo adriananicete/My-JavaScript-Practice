@@ -26,6 +26,14 @@ for (let index = 0; index < language.length; index++) {
   console.log(language.charAt(index));
 }
 
+let names = "AdrianAnicete";
+
+for (let index = 0; index < names.length; index++) {
+  console.log(names.charAt(index));
+}
+
+
+
 // Nested Loops
 for (let i = 1; i <= 3; i++) {
   for (let j = 1; j <= 3; j++) {
